@@ -5,9 +5,17 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-	1. Get the input matrix using np.array()   
-    2. Find the 2-norm of the matrix using np.linalg.norm()
-	3. Print the norm of the matrix in two decimal places.
+1. Start
+2. Import the NumPy library using `import numpy as np`.
+3. Input the matrix elements from the user using `eval(input())`.
+4. Convert the input into a NumPy array using `np.array()`.
+5. Calculate the 1-Norm of the matrix using `np.linalg.norm(mat, 1)`.
+6. Display the 1-Norm value formatted to two decimal places.
+7. Calculate the 2-Norm of the matrix using `np.linalg.norm(mat, 2)`.
+8. Display the 2-Norm value formatted to two decimal places.
+9. Calculate the Infinity Norm of the matrix using `np.linalg.norm(mat, np.inf)`.
+10. Display the Infinity Norm value formatted to two decimal places and **Stop**.
+
 ## Program:
 ~~~Python
 # Register No:SANTHOSH R
